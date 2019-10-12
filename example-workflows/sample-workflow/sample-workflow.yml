@@ -56,6 +56,7 @@ steps:
       - echo "Hello world. I am Step 7"
     dependsOn:
       - Step-6-Adjust-traffic-throttle-by-10-percent
+      - Step-5a-Update-JIRA-ticket-with-deployment-time
   - name: Step-4a-Notify-team
     description: ""
     image: alpine:latest
